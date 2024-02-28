@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T23:41:47.534Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="wzh4Db5oOiLqIt1kKZrf" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T23:52:19.822Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="QE958yEExMpi3KeMqEDS" version="23.1.6" type="github">
   <diagram name="Página-1" id="Nf-V9pZXrHt6NvwvRVjA">
     <mxGraphModel dx="794" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,21 @@
         </mxCell>
         <mxCell id="J2OI6by3QBIPTFdaqDB2-13" value="Servidor de aplicação 2" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="90" y="240" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J2OI6by3QBIPTFdaqDB2-15" value="TCP/IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J2OI6by3QBIPTFdaqDB2-16" value="TCP/IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J2OI6by3QBIPTFdaqDB2-17" value="TCP/IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J2OI6by3QBIPTFdaqDB2-18" value="TCP/IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="264" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J2OI6by3QBIPTFdaqDB2-19" value="TCP/IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
