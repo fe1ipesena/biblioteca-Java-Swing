@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T23:11:59.886Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="p5eAlmQqPBWr2kxj7e46" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T23:15:45.664Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="8t0g9HXPAAN9Gk9rLyO5" version="23.1.8" type="github">
   <diagram name="Página-1" id="YX1K54ANonkZZs8eJlF3">
-    <mxGraphModel dx="794" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,35 @@
         </mxCell>
         <mxCell id="kRuGnfXD70lQHXgBYrLt-35" value="Imprime" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="950" y="740" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kRuGnfXD70lQHXgBYrLt-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-39" value="Cadastrar usuario" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRuGnfXD70lQHXgBYrLt-42" target="kRuGnfXD70lQHXgBYrLt-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRuGnfXD70lQHXgBYrLt-42" target="kRuGnfXD70lQHXgBYrLt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-42" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="510" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-44" value="Cadastro invalido" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kRuGnfXD70lQHXgBYrLt-46" target="kRuGnfXD70lQHXgBYrLt-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-46" value="Cadastro efetuado com sucesso" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="650" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kRuGnfXD70lQHXgBYrLt-48" value="Inserção no banco de dados" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="650" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
