@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T23:02:14.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="M4_XeW4QnJtt_Yk0u3e_" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T23:11:01.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="E6ps3HONFr6J9FJRmYvK" version="23.1.6" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1177" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1545" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,16 +56,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GWX-clTnrMnO6bSCdka6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-1" target="GWX-clTnrMnO6bSCdka6-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GWX-clTnrMnO6bSCdka6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-1" target="GWX-clTnrMnO6bSCdka6-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="90" y="805" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GWX-clTnrMnO6bSCdka6-1" value="Planejador&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="750" width="30" height="60" as="geometry" />
         </mxCell>
@@ -113,8 +103,66 @@
             <mxPoint x="560" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GWX-clTnrMnO6bSCdka6-24" value="CONFIRMA RESERVA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GWX-clTnrMnO6bSCdka6-24" value="PREPARAR OS DOCUMENTOS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="890" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-1" target="GWX-clTnrMnO6bSCdka6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="790" as="sourcePoint" />
+            <mxPoint x="650" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-1" target="GWX-clTnrMnO6bSCdka6-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="780" as="sourcePoint" />
+            <mxPoint x="300" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-1" target="GWX-clTnrMnO6bSCdka6-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="780" as="sourcePoint" />
+            <mxPoint x="300" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-30" value="FAZER CHECK-IN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1030" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-31" value="PASSAR PELO CONTROLE DE SEGURANÇA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1030" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-32" value="EMBARCAR NO AVIÃO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1180" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-1" target="GWX-clTnrMnO6bSCdka6-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="780" as="sourcePoint" />
+            <mxPoint x="300" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-30" target="GWX-clTnrMnO6bSCdka6-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="1120" as="sourcePoint" />
+            <mxPoint x="710" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-36" value="INCLUDE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GWX-clTnrMnO6bSCdka6-34">
+          <mxGeometry x="-0.0347" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.29;exitY=0.938;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="GWX-clTnrMnO6bSCdka6-31" target="GWX-clTnrMnO6bSCdka6-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="1085" as="sourcePoint" />
+            <mxPoint x="590" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-37" value="INCLUDE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GWX-clTnrMnO6bSCdka6-35">
+          <mxGeometry x="-0.3209" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWX-clTnrMnO6bSCdka6-41" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="630" height="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
